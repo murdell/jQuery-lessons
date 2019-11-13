@@ -7,11 +7,11 @@
   <script type="text/javascript"  src="js/jquery-3.3.1.js"></script>
   <script type="text/javascript"  src="js/my_script.js"></script>
   
-  <style>
-    .evenColor {
-        background-color: yellow;    
-    }
-  
+   <style>
+   .underline {text-decoration: underline;
+   }
+   .border {border: solid 2px orange;
+   }
     td, th {
       width: 5rem;
       height: 2rem;
@@ -20,18 +20,26 @@
     }
     th {
       background: lightblue;
-      border-color: white;
+      border-color: #fff;
+      color: #000;
     }
     body {
       padding: 1rem;
       font-family: Roboto;
     }
-    
-  </style>
-  
-  
+    .odd {
+      background-color: #013f78;
+      color: #fff;
+    }
+    .even {
+      background-color: #fff;
+      color: #013f78;
+    }
+  </style>  
 </head>
-  <table id="food_list">
+<body>
+
+  <table>
     <tr>
       <th></th>
       <th>Country</th>
@@ -52,6 +60,27 @@
       <td>56</td>
       <td>75</td>
       <td>Veg</td>
+    </tr>
+    <tr>
+      <th>Brocolli</th>
+      <td>Bulgaria</td>
+      <td>12</td>
+      <td>70</td>
+      <td>Veg</td>
+    </tr>
+    <tr>
+      <th>Orange</th>
+      <td>Morocco</td>
+      <td>15</td>
+      <td>50</td>
+      <td>Fruit</td>
+    </tr>
+    <tr>
+      <th>Tangerine</th>
+      <td>Cyprus</td>
+      <td>12</td>
+      <td>25</td>
+      <td>Fruit</td>
     </tr>
   </table>
   <script
