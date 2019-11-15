@@ -5,7 +5,7 @@
   <title>Table</title>
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
   <script type="text/javascript"  src="js/jquery-3.3.1.js"></script>
-  <script type="text/javascript"  src="js/my_script.js"></script>
+
   
    <style>
    .underline {text-decoration: underline;
@@ -32,8 +32,14 @@
       color: #fff;
     }
     .even {
-      background-color: #fff;
+      background-color: rgba(1,63,120,.5);
       color: #013f78;
+    }
+    .selected {
+        background-color: #FF8000;
+    }
+    .not-selected {
+        background-color: yellow;
     }
   </style>  
 </head>
@@ -83,9 +89,6 @@
       <td>Fruit</td>
     </tr>
   </table>
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
+	<script src="js/my_script.js"></script> 
 </body>
 </html>
